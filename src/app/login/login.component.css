@@ -1,0 +1,57 @@
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 16px !important;
+  background-color: white;
+  border: none !important;
+}
+
+mat-card-header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-icon {
+  transform: scale(1.5);
+}
+
+mat-card-title {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  margin-top: 8px !important;
+  color: #333;
+}
+
+mat-card-subtitle {
+  font-size: 1rem !important;
+  margin-bottom: 16px !important;
+  color: #666;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.card-actions {
+  padding: 0 16px 16px 16px !important;
+}
+
+.full-width-button {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}

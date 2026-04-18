@@ -1,0 +1,29 @@
+<mat-card class="login-card" appearance="outlined">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <mat-icon color="primary" class="login-icon">account_circle</mat-icon>
+    </div>
+    <mat-card-title>Bienvenido</mat-card-title>
+    <mat-card-subtitle>Ingresa a tu cuenta</mat-card-subtitle>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <form class="login-form">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Usuario</mat-label>
+        <input matInput placeholder="Ingresa tu usuario">
+        <mat-icon matSuffix color="primary">person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Contraseña</mat-label>
+        <input matInput type="password" placeholder="Ingresa tu contraseña">
+        <mat-icon matSuffix color="primary">lock</mat-icon>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  
+  <mat-card-actions align="end" class="card-actions">
+    <button mat-raised-button color="primary" class="full-width-button" (click)="onLogin()">Aceptar</button>
+  </mat-card-actions>
+</mat-card>
