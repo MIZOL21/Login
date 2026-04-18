@@ -9,26 +9,23 @@
 }
 
 mat-card-header {
-  margin-bottom: 24px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 16px;
 }
 
 .login-icon {
-  transform: scale(1.5);
+  transform: scale(1.4);
 }
 
 mat-card-title {
-  font-size: 1.5rem !important;
-  font-weight: bold !important;
-  margin-top: 8px !important;
-  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 mat-card-subtitle {
-  font-size: 1rem !important;
-  margin-bottom: 16px !important;
+  text-align: center;
   color: #666;
 }
 
@@ -39,19 +36,14 @@ mat-card-subtitle {
 
 .full-width {
   width: 100%;
-  margin-bottom: 8px;
 }
 
-.card-actions {
-  padding: 0 16px 16px 16px !important;
+.card-boton {
+  padding-top: 16px;
 }
 
-.full-width-button {
+.boton_Ingresar {
   width: 100%;
-  padding: 8px 0;
-  font-size: 1.1rem;
-  margin-top: 8px;
+  font-size: 1rem;
   border-radius: 8px;
-  letter-spacing: 0.5px;
-  font-weight: 500;
 }
